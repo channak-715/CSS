@@ -1,0 +1,25 @@
+.grid{
+
+    display: grid;
+    grid-template-areas: 
+        'header header'
+        'menu main'
+        'footer footer' 
+    ;
+   
+    height: 900px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #0d1d2a;
+    padding: 1px;
+    gap: 4px;
+    
+}
+
+.g-item{
+    border: solid 1px black;
+    width: ;
+
+    background-color: rgb(225, 255, 0);
+}
+

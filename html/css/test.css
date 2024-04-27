@@ -1,0 +1,91 @@
+.h1{
+    text-shadow: 3px 4px 10px rgba(144, 71, 200, 0.8), -3px -4px 10px rgba(144, 71, 200, 0.8);
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: azure;
+}
+
+html {
+   margin: 0%;
+    --text-color-normal: #0a244d;
+    --text-color-light: #315b9a;
+  }
+
+.border{
+    color: rgb(205, 3, 3);
+    margin: auto;
+    width: 400px;
+    margin-top: 2%;
+    border-radius: 12px;
+    border: 4px dotted rgba(144, 71, 200, 0.8);
+    background-color:rgba(31, 33, 86, 0.3);
+    border-bottom: 6px double rgba(144, 71, 200, 0.8);
+
+}
+.border1{
+    
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    margin-top: 2%;
+    border-radius: 15px;
+  
+    background-color:rgba(31, 33, 86, 0.3);
+    box-shadow: 5px 5px 40px rgba(144, 71, 200, 0.5), -5px -5px 40px rgba(144, 71, 200, 0.5);
+
+}
+.d{
+    height: 200px;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(71, 29, 122, 0.372);
+    width: 1400px;
+    height: 600px;
+    
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.rounded-circle{
+    border-radius: 50%;
+}
+
+.pro{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: -100px;
+    border: 10px double rgba(144, 71, 200, 0.5) ;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+button{
+    margin: auto;
+    position: relative;
+    background-color:rgba(0, 8, 255, 0.3);
+    height: 100px;
+    width: 300px;
+    margin:auto;
+}
